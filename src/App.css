@@ -1,0 +1,44 @@
+body {
+  background: #7cd4d4;
+  background-image: url(http://www.graphicartsunit.com/images/noise.png)
+}
+
+.containerTitle { 
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 5px;
+  border-radius: 8px;
+}
+
+.containerTitle h1 {
+  margin: 3px;
+  background: #e2df45;
+  background-image: url(http://www.graphicartsunit.com/images/noise.png);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  color: #03384b;
+  padding: 22px 30px 22px 30px;
+  border-radius: 8px;
+  position: absolute;
+  left: 445px;
+  z-index: -1;
+}
+
+.btnAfter {
+  background: #e8afbb;
+  background-image: url(http://www.graphicartsunit.com/images/noise.png);
+  width: 103px;
+  height: 63px;
+  position: absolute;
+  top: 159px;
+  left: 727px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  z-index: -1;
+  cursor: pointer;
+}
