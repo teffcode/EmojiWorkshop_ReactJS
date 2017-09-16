@@ -1,0 +1,11 @@
+li {
+    background: #c5ecec;
+    margin: 10px;
+    width: 375px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    font-size: 45px;
+}
