@@ -23,14 +23,23 @@ class App extends Component {
     })
   }
 
+
   addToState = (event) => {  
     if (event.type === "click" || event.key === "Enter") {
       this.setState(prevState => { return {
         text: '',
-        // What is the new todos state ? 
-        todos: prevState.todos.concat(/* ? */)} 
+        todos: prevState.todos.concat(this.state.text)} 
       })
     }
+  }
+
+  removeFromState = (event) => {
+    // const todoText = ?
+    // HELP -> event.target...
+
+    this.setState(prevState => { return {
+      todos: prevState.todos.filter(todo => todo !== todoText)} 
+    })
   }
 
   render(){
@@ -47,8 +56,8 @@ class App extends Component {
           handleKeyPress={this.addToState}
           handleClick={this.addToState}
         />
-        <TodoList todos={/* What is the todos value ? */} />
-      </div>
+        <TodoList todos={this.state.todos} /* How can I remove todo ? */ />
+        </div>
     );
   }
 }
