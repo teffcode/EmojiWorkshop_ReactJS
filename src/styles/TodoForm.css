@@ -1,0 +1,33 @@
+input {
+    background: #FFF;
+    background-image: url(http://www.graphicartsunit.com/images/noise.png);
+    width: 210px;
+    height: 60px;
+    position: absolute;
+    left: 455px;
+    top: 160px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding-left: 35px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: #03384b;
+}
+
+button {
+    background: none;
+    width: 106px;
+    height: 64px;
+    top: 23px;
+    left: 720px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #03384b;
+    position: relative;
+    border: 3px solid #03384b;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+}
