@@ -34,8 +34,7 @@ class App extends Component {
   }
 
   removeFromState = (event) => {
-    // const todoText = ?
-    // HELP -> event.target...
+    const todoText = event.target.dataset.text;
 
     this.setState(prevState => { return {
       todos: prevState.todos.filter(todo => todo !== todoText)} 
@@ -56,7 +55,7 @@ class App extends Component {
           handleKeyPress={this.addToState}
           handleClick={this.addToState}
         />
-        <TodoList todos={this.state.todos} /* How can I remove todo ? */ />
+        <TodoList todos={this.state.todos} handleRemove={this.removeFromState} />
         </div>
     );
   }
